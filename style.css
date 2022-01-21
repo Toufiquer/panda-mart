@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+h2{
+    font-family: 'Poppins', sans-serif;
+}
+/* Navbar */
+.f-search{
+    position: relative;
+}
+.f-search .submit{
+    position: absolute;
+    padding: 6px 20px;
+    right: 0;
+}
+.f-search .submit i{
+    font-size: 18px;
+}
+/* slider */
+.cst-slider{
+    background-color: #FFEAE8;
+    position: relative;
+}
+.cst-slider .carousel-item img{
+    
+}
+
+.cst-slider .carousel-item h2{
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 84px;
+}
+.cst-slider .carousel-item p{
+    font-size: 16px;
+    line-height: 26px;
+}
+.cst-slider .carousel-item .price{
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 61px;
+    color: #FF136F;
+    margin-top: 25px;
+}
+.cst-btn{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 16px 28px;
+    margin-top: 25px;
+}
+.cst-btn i{
+    padding-left: 9px;
+}
+/* Categories */
+.categories h2{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #1F1F1F;
+}
+.categories .item h2{
+    font-weight: 500;
+    font-size: 36px;    
+    line-height: 54px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+.categories .item img{
+    max-height:90px;
+    max-width: 70px;
+}
+.categories .item-1{
+    background: linear-gradient(152.07deg, #FF9C35 1.47%, #FFD019 97.17%);
+}
+.categories .item-2{
+    background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+}
+.categories .item-3{
+    background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
